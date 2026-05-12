@@ -13,6 +13,12 @@ body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.index {
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 2rem;
+}
+
 /* CV Flex */
 .cv-wrapper {
     display: flex;
@@ -109,37 +115,33 @@ body {
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
+
+
 /* pricing-table */
+
 .sub_container {
-    margin: auto;
-    width: 1090px;
-    height: 100vh;
-    padding: 0 10px;
-    padding-top: 150px;
-    font-size: 0px;
-    color: #545454
+    font-size: 1.5rem;
+    min-width: 1080px;
+    height: 80vh;
+    padding: 10rem;
+    color: #545454;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .sub_plan {
-    display: inline-block;
-    width: 350px;
-    height: 600px;
-    background-color: #f7f7f7;
-    margin-right: 10px;
+    flex: 1;
+    background-color: #d3ddecdc;
     border-radius: 5px;
-    vertical-align: top;
     padding: 20px;
-    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 .sub_plan:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(197, 217, 18, 0.901);
     transition: all 0.3s ease;
-}
-
-.sub_plan:nth-child(2) {
-    box-shadow: 0 0 20px rgba(197, 217, 18, 0.901);
 }
 
 
@@ -204,3 +206,6 @@ body {
     color: green;
     margin-right: 10px;
 }
+
+
+
