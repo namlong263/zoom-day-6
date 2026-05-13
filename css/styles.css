@@ -360,3 +360,29 @@ button {
 button:hover {
     background: #d81d1d;
 }
+
+/* Froggy */
+.froggy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.froggy1, .froggy2 {
+    text-align: center;
+}
+
+.froggy1, .froggy2 p {
+    font-size: 3rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.froggy1 img, .froggy2 img {
+    width: 900px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
